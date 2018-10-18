@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1539818457 source:/home/facundo_fernandez/clases_programacion/Clase_17/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"utn.h"
+	"empleados.h"
+
+1538087820 /home/facundo_fernandez/clases_programacion/Clase_17/utn.h
+
+1539818798 /home/facundo_fernandez/clases_programacion/Clase_17/empleados.h
+
+1538699863 source:/home/facundo_fernandez/clases_programacion/Clase_17/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"utn.h"
+
+1539820494 source:/home/facundo_fernandez/clases_programacion/Clase_17/empleados.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"utn.h"
+	"empleados.h"
+
+1539820674 source:/home/alumno/Escritorio/Clase_17-master/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"utn.h"
+	"empleados.h"
+
+1539820674 /home/alumno/Escritorio/Clase_17-master/utn.h
+
+1539820674 /home/alumno/Escritorio/Clase_17-master/empleados.h
+

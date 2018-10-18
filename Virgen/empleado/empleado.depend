@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1539821883 source:/home/alumno/Escritorio/Virgen/empleado/empleado.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+
+1539820462 source:/home/alumno/Escritorio/Virgen/empleado/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+
+1539822205 /home/alumno/Escritorio/Virgen/empleado/empleado.h
+
