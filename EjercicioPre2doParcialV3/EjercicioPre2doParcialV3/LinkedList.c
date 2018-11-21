@@ -563,7 +563,7 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
  * \return Si pudo llevar a cabo la operación, denota 0; caso contrario denota -1.
  */
 
-LinkedList* ll_filter(LinkedList* this, int (*pFunc)(void*))
+int ll_filter(LinkedList* this, int (*pFunc)(void*))
 {
     LinkedList* llAux = NULL;
     llAux = ll_newLinkedList();
@@ -584,7 +584,7 @@ LinkedList* ll_filter(LinkedList* this, int (*pFunc)(void*))
                 ll_add(llAux,pElementAux);
             }
         }
-        ret = 0;
+        ret = 1;
     }
     return ret;
 }

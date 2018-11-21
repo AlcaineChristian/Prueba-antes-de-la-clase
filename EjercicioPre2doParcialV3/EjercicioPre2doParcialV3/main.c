@@ -37,10 +37,12 @@ int main()
         // Filtrar
         printf("Ingrese id de producto:");
         //TODO
-        ll_filter()
+
         // Calcular montos
         printf("Calculando montos totales...\n");
         //TODO
+
+
 
         // Generar archivo de salida
         if(generarArchivoInforme("informe.csv",listaFiltrada)==1)

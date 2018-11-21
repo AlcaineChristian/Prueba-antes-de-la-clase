@@ -7,15 +7,15 @@
 
 1542839083 /home/alumno/Escritorio/EjercicioPre2doParcialV3/EjercicioPre2doParcialV3/Compra.h
 
-1542841812 source:/home/alumno/Escritorio/EjercicioPre2doParcialV3/EjercicioPre2doParcialV3/LinkedList.c
+1542843264 source:/home/alumno/Escritorio/EjercicioPre2doParcialV3/EjercicioPre2doParcialV3/LinkedList.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"LinkedList.h"
 
-1542841698 /home/alumno/Escritorio/EjercicioPre2doParcialV3/EjercicioPre2doParcialV3/LinkedList.h
+1542843561 /home/alumno/Escritorio/EjercicioPre2doParcialV3/EjercicioPre2doParcialV3/LinkedList.h
 
-1542841005 source:/home/alumno/Escritorio/EjercicioPre2doParcialV3/EjercicioPre2doParcialV3/main.c
+1542842992 source:/home/alumno/Escritorio/EjercicioPre2doParcialV3/EjercicioPre2doParcialV3/main.c
 	<stdio.h>
 	<stdlib.h>
 	"Compra.h"
