@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1542929810 source:/home/alumno/Escritorio/Parcial 2/Venta/Venta/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Venta.h"
+	"LinkedList.h"
+	"Parser.h"
+
+1542931247 source:/home/alumno/Escritorio/Parcial 2/Venta/Venta/LinkedList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1542931246 /home/alumno/Escritorio/Parcial 2/Venta/Venta/LinkedList.h
+
+1542924768 source:/home/alumno/Escritorio/Parcial 2/Venta/Venta/Venta.c
+	"Venta.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1542924800 /home/alumno/Escritorio/Parcial 2/Venta/Venta/Venta.h
+
+1542925176 source:/home/alumno/Escritorio/Parcial 2/Venta/Venta/Parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Parser.h"
+	"Venta.h"
+
+1542843801 /home/alumno/Escritorio/Parcial 2/Venta/Venta/Parser.h
+	"LinkedList.h"
+
