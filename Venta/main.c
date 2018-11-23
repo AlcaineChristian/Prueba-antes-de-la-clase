@@ -4,17 +4,17 @@
 #include "LinkedList.h"
 #include "Parser.h"
 
-int* fn1(LinkedList* lista);
-int* fn2(LinkedList* lista,int i);
-int* fn3();
-int* fn4();
+int fn1(void* lista);
+int fn2(void* lista);
+int fn3();
+int fn4();
 
 int generarArchivoInforme(char* fileName,LinkedList* listaVentas);
 
 int main()
 {
     int ventasTotales;
-    //int ventasMayores1;
+    int ventasMayores1;
     //int ventasMayores2;
     //int ventasLCD;
     // Definir lista de ventas
@@ -35,7 +35,8 @@ int main()
         ventasTotales=fn1(listaVentas);
         printf("%d\n",ventasTotales);
         printf("Calculando ventas mayores a $10000...\n");
-        ventasMayores1=ll_count(listaVentas,fn2(listaventas,))
+        ventasMayores1=ll_count(listaVentas,fn2);
+        printf("%d\n",ventasMayores1);
 
         printf("Calculando ventas mayores a $20000...\n");
         //ventasMayores2=ll_count(listaVentas,fn3());
@@ -89,7 +90,7 @@ int generarArchivoInforme(char* fileName,LinkedList* listaVentas)
     return 1;
 }
 
-int* fn1(LinkedList* lista)
+int fn1(void* lista)
 {
     int ret=0;
     int i=0;
@@ -108,22 +109,24 @@ int* fn1(LinkedList* lista)
     //printf("\n\n\n%d\n\n\n",ret);
     return ret;
 }
-
-int* fn2(LinkedList* lista,int i)
+static int i=0;
+int fn2(void* lista)
 {
     int ret=0;
-    int len;
     Venta* ventas;
-    len = ll_len(lista);
+
     if(lista!=NULL)
     {
+
         ventas=ll_get(lista,i);
-        if(ventas->precioUnitario >= 10000)
+        if(ventas->precioUnitario >= 10000.00)
         {
             ret=1;
         }
+        i++;
+        printf("%d\n",i);
     }
-    return 0;
+    return ret;
 }
 
 /*int* fn3()

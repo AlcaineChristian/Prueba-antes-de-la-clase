@@ -597,7 +597,7 @@ void* ll_filter(LinkedList* this,int(*pFunc)(void*)){
 
  */
 
-int ll_count(LinkedList* this, int (*fn(LinkedList* lista,int i)))
+int ll_count(LinkedList* this, int(*fn)(void*))
 {
     Node* pNode;
     int ret=0;
